@@ -1,67 +1,98 @@
 # Smart Banking Fraud Analytics
 
-An AI-powered banking fraud detection and analytics platform designed to identify fraudulent financial transactions using Machine Learning and Deep Learning techniques.
+An AI-powered fraud detection and analytics platform designed to identify fraudulent banking and credit card transactions using Machine Learning and Deep Learning techniques.
 
 ---
 
-## Project Overview
+# Project Overview
 
-This project focuses on detecting fraudulent banking and credit card transactions using advanced machine learning models and data analysis techniques. The system analyzes transaction patterns, identifies anomalies, and helps improve fraud prevention in digital banking systems.
+Smart Banking Fraud Analytics is an intelligent fraud detection system that analyzes banking and financial transactions to identify suspicious and fraudulent activities.
 
-The project includes:
-- Machine Learning models
-- Deep Learning models
-- Fraud analytics
-- Data preprocessing
+The project uses advanced Machine Learning and Deep Learning algorithms to improve fraud detection accuracy and reduce financial risks in digital banking systems.
+
+This project demonstrates:
+- Fraud detection using AI/ML
+- Transaction anomaly analysis
 - Feature engineering
-- Multiple fraud detection datasets
+- Data preprocessing
+- Model evaluation
+- Comparative analysis of multiple ML/DL models
 
 ---
 
-## Features
+# Features
 
 - Fraud Detection using Machine Learning
-- Deep Learning-based prediction models
-- Transaction anomaly detection
-- Credit card fraud analysis
-- IEEE fraud detection dataset support
-- Data balancing and preprocessing
-- Feature selection techniques
-- Fraud analytics notebooks
+- Deep Learning-based Fraud Prediction
+- Transaction Anomaly Detection
+- Data Balancing and Preprocessing
+- Feature Engineering
+- Credit Card Fraud Analysis
+- IEEE Fraud Detection Analysis
+- Multiple Fraud Detection Datasets
+- Comparative Model Performance Analysis
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Programming Languages
+## Programming Language
 - Python
 
-### Libraries & Frameworks
+## Libraries & Frameworks
 - Scikit-learn
-- TensorFlow / Keras
+- TensorFlow
+- Keras
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- XGBoost
+- LightGBM
+- CatBoost
 
-### Tools
+## Tools & Platforms
 - Jupyter Notebook
 - Git
 - GitHub
 
 ---
 
-## Machine Learning Models Used
+# Machine Learning Models Used
 
 - Logistic Regression
-- Random Forest
 - Decision Tree
-- XGBoost
-- Neural Networks
+- Random Forest
+- AdaBoost Classifier
+- Gradient Boosting Classifier
+- XGBoost Classifier
+- CatBoost Classifier
+- LightGBM Classifier
 
 ---
 
-## Project Structure
+# Deep Learning Models Used
+
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
+- Autoencoder
+
+---
+
+# Datasets Used
+
+| Dataset Name | Samples | Features |
+|---|---|---|
+| Credit Card Fraud Detection | 284,807 | 31 |
+| Credit Card Transactions Fraud Detection | 1,048,576 | 23 |
+| Fraud E-commerce Dataset | 150,000 | 11 |
+| Synthetic Financial Payment Dataset | 594,643 | 10 |
+
+---
+
+# Project Structure
 
 ```bash
 AI-Based-Fraud-Detection-main/
@@ -72,12 +103,15 @@ AI-Based-Fraud-Detection-main/
 │
 ├── creditcard/
 │   ├── creditcard.ipynb
-│   └── fraud detection notebooks
+│   ├── feature selection notebooks
+│   └── outlier suppression notebooks
 │
 ├── ieee-fraud-detection/
 │   ├── IEEE-Fraud-Detection-2.ipynb
 │   └── ieee-fraud-detection.ipynb
 │
 ├── Synthetic Financial Datasets For Fraud Detection/
+│
+├── Project Reports/
 │
 └── README.md
