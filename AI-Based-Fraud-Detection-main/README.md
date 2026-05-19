@@ -1,89 +1,117 @@
-# Artificial Intelligence Based Methods in Credit Card Fraud Detection
+# Smart Banking Fraud Analytics
 
-This project aims to develop an AI-based system for fraud detection. The system utilizes machine learning techniques to identify fraudulent activities in financial transactions.
+An AI-powered fraud detection and analytics platform designed to identify fraudulent banking and credit card transactions using Machine Learning and Deep Learning techniques.
 
-## Table of Contents
+---
 
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Datasets](#dataset)
-- [Algorithms](#algorithms)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+# Project Overview
 
-## Project Description
+Smart Banking Fraud Analytics is an intelligent fraud detection system that analyzes banking and financial transactions to identify suspicious and fraudulent activities.
 
-The AI-Based Fraud Detection project leverages advanced machine learning algorithms to detect fraudulent transactions. By analyzing a given dataset, the system learns patterns and characteristics associated with fraudulent activities, allowing it to classify new transactions as either fraudulent or legitimate.
+The project uses advanced Machine Learning and Deep Learning algorithms to improve fraud detection accuracy and reduce financial risks in digital banking systems.
 
-The project includes several key components:
+This project demonstrates:
+- Fraud detection using AI/ML
+- Transaction anomaly analysis
+- Feature engineering
+- Data preprocessing
+- Model evaluation
+- Comparative analysis of multiple ML/DL models
 
-- Data preprocessing: The dataset undergoes cleaning, normalization, and feature engineering to prepare it for model training.
-- Model training: Machine learning and deep learning models, such as XGBOOST or ANN, are trained using the preprocessed data.
-- Evaluation: The trained models are evaluated using various metrics, such as precision, recall, AUC, and F1 score.
-- Fraud detection: The system applies the trained model to new, unseen data to identify potential fraudulent transactions.
+---
 
-## Installation
+# Features
 
-To install and set up the AI-Based Fraud Detection project, follow these steps:
+- Fraud Detection using Machine Learning
+- Deep Learning-based Fraud Prediction
+- Transaction Anomaly Detection
+- Data Balancing and Preprocessing
+- Feature Engineering
+- Credit Card Fraud Analysis
+- IEEE Fraud Detection Analysis
+- Multiple Fraud Detection Datasets
+- Comparative Model Performance Analysis
 
-1. Clone the repository:
+---
 
-   ```shell
-   git clone https://github.com/Tek-nr/AI-Based-Fraud-Detection.git
+# Tech Stack
 
-## Dataset
+## Programming Language
+- Python
 
-### Dataset Information
+## Libraries & Frameworks
+- Scikit-learn
+- TensorFlow
+- Keras
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- XGBoost
+- LightGBM
+- CatBoost
 
-The datasets used within the project were researched from Kaggle, Google Dataset Search, UCI Machine Learning Repository, OpenML, DataHub, Papers with Code, EU Open Data Portal, Awesome Public Dataset resources and selected among the most preferred ones in the literature. Each dataset offers unique characteristics and can be utilized for different purposes. Below is a summary of the datasets:
+## Tools & Platforms
+- Jupyter Notebook
+- Git
+- GitHub
 
+---
 
-| Dataset Name                              | Dataset Link                                                               | Number of Samples | Number of Features |
-|-------------------------------------------|---------------------------------------------------------------------------|-------------------|--------------------|
-| Credit Card Fraud Detection               | [Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)            | 284,807           | 31                 |
-| Credit Card Transactions Fraud Detection  | [Link](https://www.kaggle.com/datasets/kartik2112/fraud-detection)         | 1,048,576         | 23                 |
-| Fraud E-commerce                          | [Link](https://www.kaggle.com/datasets/vbinh002/fraud-ecommerce)           | 150,000           | 11                 |
-| Synthetic data from a financial payment system | [Link](https://www.kaggle.com/datasets/ealaxi/banksim1)                   | 594,643           | 10                 |
+# Machine Learning Models Used
 
-## Algorithms
-Within the scope of the project, the most used machine learning and deep learning algorithms in the literature for this project were examined comparatively.
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- AdaBoost Classifier
+- Gradient Boosting Classifier
+- XGBoost Classifier
+- CatBoost Classifier
+- LightGBM Classifier
 
-| Machine Learning                    | Deep Learning                  |
-|-------------------------|----------------------------|
-| XGBClassifier           | ANN  |
-| CatBoostClassifier      | CNN                   |
-| AdaBoostClassifier      | RNN         |
-| GradientBoostingClassifier | LSTM       |
-| LGBMClassifier          | Autoencoder                   |
+---
 
+# Deep Learning Models Used
 
-## Usage
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM)
+- Autoencoder
 
-1. Clone the repository:
+---
 
-   ```shell
-   git clone https://github.com/YourUsername/YourRepository.git
-   
-2. Navigate to the project directory:
-   ```shell
-   cd YourRepository
+# Datasets Used
 
-4. Access the datasets by referring to their respective links provided in the table above.
-5. Download the datasets and place them in the appropriate directory within your project.
-6. Use the datasets in your machine learning or data analysis tasks as needed.
-7. Make sure to properly attribute the datasets by including the relevant citations or credits to the dataset providers.
-8. If you make use of the datasets in your research or projects, consider providing a link or acknowledgment to the original dataset source in your work.
-9. If you perform any preprocessing or modifications to the datasets, clearly document the changes made in your project's documentation or README file.
-10. Ensure compliance with any licensing or usage restrictions associated with the datasets.
+| Dataset Name | Samples | Features |
+|---|---|---|
+| Credit Card Fraud Detection | 284,807 | 31 |
+| Credit Card Transactions Fraud Detection | 1,048,576 | 23 |
+| Fraud E-commerce Dataset | 150,000 | 11 |
+| Synthetic Financial Payment Dataset | 594,643 | 10 |
 
-## Contributing
+---
 
-Contributions to this repository are welcome! If you have any additional datasets or improvements to the existing datasets, feel free to submit a pull request.
+# Project Structure
 
-## License
-
-This repository and the datasets within it are licensed under the MIT License. So, feel free to modify this code to match your specific project and dataset details.
-
-
-
+```bash
+AI-Based-Fraud-Detection-main/
+│
+├── BalanceDataset.py
+├── MachineLearningModels.py
+├── DeepLearningModels.py
+│
+├── creditcard/
+│   ├── creditcard.ipynb
+│   ├── feature selection notebooks
+│   └── outlier suppression notebooks
+│
+├── ieee-fraud-detection/
+│   ├── IEEE-Fraud-Detection-2.ipynb
+│   └── ieee-fraud-detection.ipynb
+│
+├── Synthetic Financial Datasets For Fraud Detection/
+│
+├── Project Reports/
+│
+└── README.md
